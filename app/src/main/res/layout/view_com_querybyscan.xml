@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/line"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dp_14"
+        android:paddingRight="@dimen/dp_12">
+
+        <TextView
+            android:id="@+id/textV"
+            style="@style/text_14sp_gray_style"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:text="条码" />
+
+        <com.dingyg.edittextwithclear.EditTextWithClear
+            android:id="@+id/etWithClear"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_toLeftOf="@+id/cbDel"
+            android:layout_toRightOf="@+id/textV"
+            android:background="@drawable/bg_edit_round"
+            android:maxEms="50"
+            android:imeOptions="actionDone" />
+
+        <CheckBox
+            android:id="@+id/cbDel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="撤销删除"
+            android:layout_alignParentEnd="true"
+            android:textSize="@dimen/sp_13"
+            android:textColor="@color/text_prompt"/>
+
+        <ImageButton
+            android:id="@+id/ibfscan"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:adjustViewBounds="true"
+            android:background="@color/transparent"
+            android:src="@drawable/login_service_scan"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>

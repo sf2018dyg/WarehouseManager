@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config=":updateutil"><source path="F:\AndroidCode\As_workplace\WarehouseManager\updateutil\build\intermediates\packagedAssets\release"/></dataSet><dataSet config="main"><source path="F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\assets"/><source path="F:\AndroidCode\As_workplace\WarehouseManager\app\build\generated\assets\shaders\release"/></dataSet><dataSet config="release"><source path="F:\AndroidCode\As_workplace\WarehouseManager\app\src\release\assets"/></dataSet></merger>

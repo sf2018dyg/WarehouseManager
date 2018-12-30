@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:orientation="vertical"
+    android:background="@color/space_line"
+    >
+    <LinearLayout
+        android:id="@+id/llfSeclect"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:paddingRight="@dimen/dp_10"
+        >
+        <RelativeLayout
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp">
+
+            <ImageView
+                android:id="@+id/check_store"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@mipmap/unchecked"
+                android:paddingLeft="4dp"
+                android:layout_centerInParent="true"
+                android:enabled="false" />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/tvfCode"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text"
+            android:textSize="@dimen/sp_14"
+            android:layout_marginRight="@dimen/dp_12"
+            />
+        <TextView
+            android:id="@+id/tvfName"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_prompt"
+            android:textSize="@dimen/sp_14"
+            android:maxLines="1"
+            android:ellipsize="end"
+            />
+    </LinearLayout>
+
+</LinearLayout>

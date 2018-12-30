@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.soonfor.warehousemanager"
+    android:versionCode="36"
+    android:versionName="1.1.5.7" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="27" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.screen.landscape"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" />
+
+    <application
+        android:name="com.soonfor.warehousemanager.SoonforApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ckpda_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ckpda_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.soonfor.warehousemanager.home.login.activity.StartActivity"
+            android:theme="@style/StartTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.soonfor.warehousemanager.home.main.MainActivity" />
+        <activity
+            android:name="com.soonfor.warehousemanager.home.login.activity.ServerSettingsActivity"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name="com.soonfor.warehousemanager.home.login.activity.LoginActivity"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity android:name="com.soonfor.warehousemanager.home.login.activity.CustomScanAct" />
+        <activity android:name="com.soonfor.warehousemanager.home.store.StoreActivity" />
+        <activity android:name="com.soonfor.warehousemanager.home.setting.SettingActivity" />
+        <activity android:name="com.soonfor.warehousemanager.home.setting.MusicActivity" />
+        <activity
+            android:name="com.soonfor.warehousemanager.module.instore.flowtype.FlowTypeActivity"
+            android:theme="@style/dialog" />
+        <activity
+            android:name="com.soonfor.warehousemanager.module.instore.InStoreActivity"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name="com.soonfor.warehousemanager.module.outstore.OutStoreActivity"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name="com.soonfor.warehousemanager.module.querybyscan.QueryByScanActivity"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <!-- 音频播放服务 -->
+        <service android:name="com.soonfor.warehousemanager.service.PlayerService" />
+
+        <activity
+            android:name="com.soonfor.warehousemanager.module.allot.AllotMainActivity"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name="com.soonfor.warehousemanager.module.allot.AllotConditionActivity"
+            android:theme="@style/dialog"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name="com.soonfor.warehousemanager.module.delete.DeleteActivity"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name="com.soonfor.warehousemanager.module.findbarcode.BarCodeSearchActivity"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name="com.soonfor.warehousemanager.module.outstore.OutStoreConditionActivity"
+            android:theme="@style/dialog" />
+        <activity
+            android:name="com.soonfor.warehousemanager.module.instore.InStoreConditionActivity"
+            android:theme="@style/dialog" />
+        <activity
+            android:name="com.soonfor.warehousemanager.module.instore.selected.InStoreSelectedActivity"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name="com.soonfor.warehousemanager.module.outstore.selected.OutStoreSelectedActivity"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name="com.soonfor.warehousemanager.module.instore.deleteBarCodeActivity"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name="com.soonfor.warehousemanager.view.NoQiTaoUIActivity"
+            android:theme="@style/dialog"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name="com.soonfor.warehousemanager.module.print.PrinterActivity"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name="com.soonfor.warehousemanager.module.instore.selected.SelectPrientActivity"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity android:name="com.soonfor.warehousemanager.module.querybyscan.unscan.UnScanBarCodeActivity" />
+
+        <provider
+            android:name="com.dingyg.updateutil.UpdateFileProvider"
+            android:authorities="com.soonfor.warehousemanager.myfileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_provider" />
+        </provider>
+
+        <activity
+            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            android:clearTaskOnLaunch="true"
+            android:screenOrientation="sensorLandscape"
+            android:stateNotNeeded="true"
+            android:theme="@style/zxing_CaptureTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.github.dfqin.grantor.PermissionActivity"
+            android:theme="@style/GrantorNoDisplay" />
+    </application>
+
+</manifest>

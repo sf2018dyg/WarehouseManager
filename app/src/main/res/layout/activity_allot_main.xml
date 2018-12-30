@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tl="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_title_layout" />
+
+    <com.soonfor.warehousemanager.view.BaseQueryView
+        android:id="@+id/queryView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_layout" />
+
+    <ImageView
+        android:id="@+id/viewfFenge"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/queryView"
+        android:background="@color/c7c7c7" />
+
+    <HorizontalScrollView
+        android:id="@+id/hsTl1"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:layout_below="@+id/viewfFenge"
+        android:background="@color/white"
+        android:scrollbars="none">
+
+        <com.soonfor.warehousemanager.view.FlycoTabLayout_Lib.CommonTabLayout
+            android:id="@+id/tl_1"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:background="@color/white"
+            app:tl_tab_width="120dp"
+            tl:tl_iconVisible="false"
+            tl:tl_indicator_width="70dp"
+            tl:tl_textsize="@dimen/sp_14" />
+    </HorizontalScrollView>
+
+    <ImageView
+        android:id="@+id/imgFege"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0.6"
+        android:layout_below="@+id/hsTl1"
+        android:background="@color/c7c7c7" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/llfBottom"
+        android:layout_below="@+id/imgFege"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/tablell"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="@color/white"
+            android:orientation="vertical"></LinearLayout>
+    </HorizontalScrollView>
+
+    <com.qmuiteam.qmui.widget.QMUIEmptyView
+        android:id="@+id/emptyView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/llfBottom"
+        android:layout_below="@+id/hsTl1"
+        app:qmui_detail_text=""
+        app:qmui_title_text="没有数据" />
+
+    <LinearLayout
+        android:id="@+id/llfBottom"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/txt_scanDel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/gray2"
+            android:gravity="center"
+            android:text="扫码删除"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_15" />
+
+        <TextView
+            android:id="@+id/txt_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/red"
+            android:gravity="center"
+            android:text="确定"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_15" />
+    </LinearLayout>
+</RelativeLayout>

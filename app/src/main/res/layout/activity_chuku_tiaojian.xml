@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dp_16"
+    android:background="@drawable/alert_bg_w"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/llfBeiHuo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:gravity="center"
+            android:text="备货条件"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_15" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="物流批次"
+                android:textColor="@color/text_prompt"
+                android:textSize="@dimen/sp_14" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:gravity="center_vertical"
+                android:text="*"
+                android:textColor="@color/red"
+                android:textSize="@dimen/sp_14" />
+
+            <TextView
+                android:id="@+id/txt_wuliupici"
+                android:layout_width="match_parent"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:layout_height="44dp"
+                android:layout_marginLeft="8dp"
+                android:drawableRight="@mipmap/arrow_right"
+                android:hint="请选择物流批次"
+                android:textColor="@color/text"
+                android:textColorHint="@color/gray"
+                android:textSize="@dimen/sp_14"
+                android:maxLines="2"
+                android:ellipsize="end" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_0.6"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@color/line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="车牌号"
+                android:textColor="@color/text_prompt"
+                android:textSize="@dimen/sp_14" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:gravity="center_vertical"
+                android:text="*"
+                android:textColor="@color/red"
+                android:textSize="@dimen/sp_14" />
+
+            <TextView
+                android:id="@+id/txt_chepai"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginLeft="8dp"
+                android:drawableRight="@mipmap/arrow_right"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:hint="请选择车牌"
+                android:textColor="@color/text"
+                android:textColorHint="@color/gray"
+                android:textSize="@dimen/sp_14"
+                android:maxLines="2"
+                android:ellipsize="end" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_0.6"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@color/line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="载货台"
+                android:textColor="@color/text_prompt"
+                android:textSize="@dimen/sp_14" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:gravity="center_vertical"
+                android:text="*"
+                android:textColor="@color/red"
+                android:textSize="@dimen/sp_14" />
+
+            <TextView
+                android:id="@+id/edt_zaihuotai"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginLeft="8dp"
+                android:background="@null"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:textColor="@color/text"
+                android:textColorHint="@color/gray"
+                android:textSize="@dimen/sp_14"
+                android:maxLines="2"
+                android:ellipsize="end" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_0.6"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@color/line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:visibility="visible">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="订单追加"
+                android:textColor="@color/text_prompt"
+                android:textSize="@dimen/sp_14" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:gravity="center_vertical"
+                android:text="*"
+                android:textColor="@color/red"
+                android:textSize="@dimen/sp_14"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/txt_selectordno"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginLeft="8dp"
+                android:background="@null"
+                android:drawableRight="@mipmap/arrow_right"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:hint="请选择订单"
+                android:textColor="@color/text"
+                android:textColorHint="@color/gray"
+                android:textSize="@dimen/sp_14"
+                android:maxLines="2"
+                android:ellipsize="end" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llfChuHuo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:gravity="center"
+            android:text="出货条件"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_15" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="出货通知单"
+                android:textColor="@color/text_prompt"
+                android:textSize="@dimen/sp_14" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:gravity="center_vertical"
+                android:text="*"
+                android:textColor="@color/red"
+                android:textSize="@dimen/sp_14" />
+
+            <TextView
+                android:id="@+id/tvfShippingOrder"
+                android:layout_width="match_parent"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:layout_height="44dp"
+                android:layout_marginLeft="8dp"
+                android:drawableRight="@mipmap/arrow_right"
+                android:hint="请选择出货通知单"
+                android:textColor="@color/text"
+                android:textColorHint="@color/gray"
+                android:textSize="@dimen/sp_14"
+                android:maxLines="2"
+                android:ellipsize="end" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="订单追加"
+                android:textColor="@color/text_prompt"
+                android:textSize="@dimen/sp_14" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:gravity="center_vertical"
+                android:text="*"
+                android:textColor="@color/red"
+                android:textSize="@dimen/sp_14"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/txtfdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="@dimen/dp_12"
+                android:background="@null"
+                android:drawableRight="@mipmap/arrow_right"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:hint="请选择订单"
+                android:textColor="@color/text"
+                android:textColorHint="@color/gray"
+                android:textSize="@dimen/sp_14"
+                android:maxLines="2"
+                android:ellipsize="end"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/line" />
+    <TextView
+        android:id="@+id/txt_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:gravity="center"
+        android:text="确定"
+        android:textColor="@color/red"
+        android:textSize="@dimen/sp_15" />
+</LinearLayout>

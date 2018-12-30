@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:orientation="vertical"
+    android:background="@color/space_line">
+    <RelativeLayout
+        android:id="@+id/rlfSeclect"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        >
+        <RelativeLayout
+            android:id="@+id/rlfsel"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_alignParentStart="true">
+
+            <ImageView
+                android:id="@+id/check_store"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@mipmap/unchecked"
+                android:paddingLeft="4dp"
+                android:layout_centerInParent="true"
+                android:enabled="false" />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/tvfName"
+            android:layout_toRightOf="@+id/rlfsel"
+            android:layout_toLeftOf="@+id/tvfSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text"
+            android:textSize="@dimen/sp_14"
+            android:layout_marginRight="@dimen/dp_12"
+            android:layout_centerVertical="true"
+            android:maxLines="2"
+            android:ellipsize="end"
+            />
+        <TextView
+            android:id="@+id/tvfSize"
+            android:layout_marginRight="@dimen/dp_10"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_prompt"
+            android:textSize="@dimen/sp_14"
+            android:maxLines="1"
+            android:ellipsize="end"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

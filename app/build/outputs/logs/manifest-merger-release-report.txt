@@ -1,0 +1,428 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:2:1-95:12
+INJECTED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:2:1-95:12
+INJECTED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:2:1-95:12
+INJECTED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:2:1-95:12
+MERGED from [com.qmuiteam:qmui:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\qmui-1.1.3.aar\4eb61cd46285d69f0e2ea7141eae9931\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\f4154bd3fad2bdbcf31c76cf8458080d\AndroidManifest.xml:17:1-22:12
+MERGED from [:updateutil] F:\AndroidCode\As_workplace\WarehouseManager\updateutil\build\intermediates\manifests\full\release\AndroidManifest.xml:2:1-33:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\98880e4e9289c7f7f76aa6fa45993307\AndroidManifest.xml:2:1-11:12
+MERGED from [com.jakewharton:butterknife:8.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\butterknife-8.4.0.aar\7f4a440beb87cdd346c83ec8a1392f3c\AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.gittjy:LoadingDialog:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\LoadingDialog-1.0.2.aar\ce8aa6994549aa6c79d5334d1b5cf3ec\AndroidManifest.xml:2:1-17:12
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.4-7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\SmartRefreshLayout-1.0.4-7.aar\2300a7ac4edd374181aa2ee82b4b4863\AndroidManifest.xml:2:1-17:12
+MERGED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\13a7fe0b7b40ab68ab68d6ca201a88de\AndroidManifest.xml:17:1-55:12
+MERGED from [com.orhanobut:hawk:2.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\hawk-2.0.1.aar\6fe6eaf7706a24510fc325cd29795d9c\AndroidManifest.xml:2:1-8:12
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\b07b533e47cb21467ddd15bc80fa3ef0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.hijesse:android-logger:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\android-logger-2.0.0.aar\7bcb2ab871f2076ded4dd206aff1708f\AndroidManifest.xml:2:1-12:12
+MERGED from [com.alibaba:arouter-api:1.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\arouter-api-1.3.1.aar\bf7b87efb72e4f094b9518c637f7a13d\AndroidManifest.xml:2:1-10:12
+MERGED from [com.github.dfqin:grantor:2.5] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\grantor-2.5.aar\29794ecd0b93d7a76f8909ed60647464\AndroidManifest.xml:2:1-20:12
+MERGED from [:EditTextWithClear:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\EditTextWithClear.aar\ae05ea239828188de6d3b5e72ac27d10\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\9781f2a0baf4671efd72aa2e7bce04c7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\ca5ac40823293fc4fe4bad2c7ea663fd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\04cd4f4e1f45b4d8808e841e3dbf8241\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\ee72c8cce1417098ac5dd6b774c2fde0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\2e053655bd4e13f10a403f0e94c37956\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\35dc149d62c36f360fc1dc0044491ac3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\6e4265c4f7d85fdc40f64962345ac86f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\7b919d2d31225f0fd67f04bd3d00e75c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\2555b3f243347d387492340740439661\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\1538fe03c4ad8f5fa02a00e6b2f60542\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\0bb696a1b4b703bbe3c61c6e5256fa50\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.conceal:conceal:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\conceal-1.1.3.aar\f92305efd9fdc6fb77567874f60db2e1\AndroidManifest.xml:7:1-16:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\6816960bea256a018ff3c25356765d8c\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\ce40cfb5d896c8dca97c0770c0f90d3f\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d31990276f9a660476ce77a2a4af0fc8\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\caf2cc1c060f5c8694198111b38d3584\AndroidManifest.xml:17:1-22:12
+INJECTED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:2:1-95:12
+INJECTED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:2:1-95:12
+INJECTED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:2:1-95:12
+	package
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:4:5-43
+		INJECTED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml
+		INJECTED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:2:1-95:12
+		INJECTED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:2:1-95:12
+		INJECTED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.INTERNET
+ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:7:5-67
+MERGED from [:updateutil] F:\AndroidCode\As_workplace\WarehouseManager\updateutil\build\intermediates\manifests\full\release\AndroidManifest.xml:13:5-67
+MERGED from [:updateutil] F:\AndroidCode\As_workplace\WarehouseManager\updateutil\build\intermediates\manifests\full\release\AndroidManifest.xml:13:5-67
+	android:name
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:7:22-64
+uses-permission#android.permission.CAMERA
+ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:8:5-65
+MERGED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\13a7fe0b7b40ab68ab68d6ca201a88de\AndroidManifest.xml:21:5-65
+MERGED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\13a7fe0b7b40ab68ab68d6ca201a88de\AndroidManifest.xml:21:5-65
+	android:name
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:8:22-62
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:9:5-80
+MERGED from [:updateutil] F:\AndroidCode\As_workplace\WarehouseManager\updateutil\build\intermediates\manifests\full\release\AndroidManifest.xml:16:5-80
+MERGED from [:updateutil] F:\AndroidCode\As_workplace\WarehouseManager\updateutil\build\intermediates\manifests\full\release\AndroidManifest.xml:16:5-80
+	android:name
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:9:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:10:5-81
+MERGED from [:updateutil] F:\AndroidCode\As_workplace\WarehouseManager\updateutil\build\intermediates\manifests\full\release\AndroidManifest.xml:15:5-81
+MERGED from [:updateutil] F:\AndroidCode\As_workplace\WarehouseManager\updateutil\build\intermediates\manifests\full\release\AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:10:22-78
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:11:5-70
+	android:name
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:11:22-68
+application
+ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:13:5-93:19
+MERGED from [:updateutil] F:\AndroidCode\As_workplace\WarehouseManager\updateutil\build\intermediates\manifests\full\release\AndroidManifest.xml:21:5-31:19
+MERGED from [:updateutil] F:\AndroidCode\As_workplace\WarehouseManager\updateutil\build\intermediates\manifests\full\release\AndroidManifest.xml:21:5-31:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\98880e4e9289c7f7f76aa6fa45993307\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\98880e4e9289c7f7f76aa6fa45993307\AndroidManifest.xml:9:5-20
+MERGED from [com.github.gittjy:LoadingDialog:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\LoadingDialog-1.0.2.aar\ce8aa6994549aa6c79d5334d1b5cf3ec\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.gittjy:LoadingDialog:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\LoadingDialog-1.0.2.aar\ce8aa6994549aa6c79d5334d1b5cf3ec\AndroidManifest.xml:11:5-15:19
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.4-7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\SmartRefreshLayout-1.0.4-7.aar\2300a7ac4edd374181aa2ee82b4b4863\AndroidManifest.xml:11:5-15:19
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.4-7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\SmartRefreshLayout-1.0.4-7.aar\2300a7ac4edd374181aa2ee82b4b4863\AndroidManifest.xml:11:5-15:19
+MERGED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\13a7fe0b7b40ab68ab68d6ca201a88de\AndroidManifest.xml:45:5-53:19
+MERGED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\13a7fe0b7b40ab68ab68d6ca201a88de\AndroidManifest.xml:45:5-53:19
+MERGED from [com.github.dfqin:grantor:2.5] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\grantor-2.5.aar\29794ecd0b93d7a76f8909ed60647464\AndroidManifest.xml:11:5-18:19
+MERGED from [com.github.dfqin:grantor:2.5] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\grantor-2.5.aar\29794ecd0b93d7a76f8909ed60647464\AndroidManifest.xml:11:5-18:19
+	android:supportsRtl
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:19:9-35
+	android:label
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:17:9-41
+	android:roundIcon
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:18:9-47
+	android:icon
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:16:9-42
+	android:allowBackup
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:15:9-35
+		REJECTED from [:updateutil] F:\AndroidCode\As_workplace\WarehouseManager\updateutil\build\intermediates\manifests\full\release\AndroidManifest.xml:21:18-45
+		REJECTED from [com.github.gittjy:LoadingDialog:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\LoadingDialog-1.0.2.aar\ce8aa6994549aa6c79d5334d1b5cf3ec\AndroidManifest.xml:12:9-35
+		REJECTED from [com.github.dfqin:grantor:2.5] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\grantor-2.5.aar\29794ecd0b93d7a76f8909ed60647464\AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:20:9-40
+	tools:replace
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:21:9-44
+	android:name
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:14:9-43
+activity#com.soonfor.warehousemanager.home.login.activity.StartActivity
+ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:22:9-30:20
+	android:theme
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:24:13-46
+	android:name
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:23:13-62
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:25:13-29:29
+action#android.intent.action.MAIN
+ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:28:27-74
+activity#com.soonfor.warehousemanager.home.main.MainActivity
+ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:31:9-60
+	android:name
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:31:19-57
+activity#com.soonfor.warehousemanager.home.login.activity.ServerSettingsActivity
+ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:32:9-34:73
+	android:windowSoftInputMode
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:34:13-70
+	android:name
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:33:13-71
+activity#com.soonfor.warehousemanager.home.login.activity.LoginActivity
+ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:35:9-36:72
+	android:windowSoftInputMode
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:36:13-70
+	android:name
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:35:19-68
+activity#com.soonfor.warehousemanager.home.login.activity.CustomScanAct
+ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:37:9-71
+	android:name
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:37:19-68
+activity#com.soonfor.warehousemanager.home.store.StoreActivity
+ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:38:9-62
+	android:name
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:38:19-59
+activity#com.soonfor.warehousemanager.home.setting.SettingActivity
+ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:39:9-66
+	android:name
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:39:19-63
+activity#com.soonfor.warehousemanager.home.setting.MusicActivity
+ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:40:9-64
+	android:name
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:40:19-61
+activity#com.soonfor.warehousemanager.module.instore.flowtype.FlowTypeActivity
+ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:41:9-43:45
+	android:theme
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:43:13-42
+	android:name
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:42:13-69
+activity#com.soonfor.warehousemanager.module.instore.InStoreActivity
+ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:44:9-46:73
+	android:windowSoftInputMode
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:46:13-70
+	android:name
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:45:13-59
+activity#com.soonfor.warehousemanager.module.outstore.OutStoreActivity
+ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:47:9-49:73
+	android:windowSoftInputMode
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:49:13-70
+	android:name
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:48:13-61
+activity#com.soonfor.warehousemanager.module.querybyscan.QueryByScanActivity
+ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:50:9-52:73
+	android:windowSoftInputMode
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:52:13-70
+	android:name
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:51:13-67
+service#com.soonfor.warehousemanager.service.PlayerService
+ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:54:9-58
+	android:name
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:54:18-55
+activity#com.soonfor.warehousemanager.module.allot.AllotMainActivity
+ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:55:9-57:73
+	android:windowSoftInputMode
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:57:13-70
+	android:name
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:56:13-59
+activity#com.soonfor.warehousemanager.module.allot.AllotConditionActivity
+ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:58:9-61:73
+	android:windowSoftInputMode
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:61:13-70
+	android:theme
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:60:13-42
+	android:name
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:59:13-64
+activity#com.soonfor.warehousemanager.module.delete.DeleteActivity
+ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:62:9-64:73
+	android:windowSoftInputMode
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:64:13-70
+	android:name
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:63:13-57
+activity#com.soonfor.warehousemanager.module.findbarcode.BarCodeSearchActivity
+ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:65:9-67:73
+	android:windowSoftInputMode
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:67:13-70
+	android:name
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:66:13-69
+activity#com.soonfor.warehousemanager.module.outstore.OutStoreConditionActivity
+ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:68:9-70:45
+	android:theme
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:70:13-42
+	android:name
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:69:13-70
+activity#com.soonfor.warehousemanager.module.instore.InStoreConditionActivity
+ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:71:9-73:45
+	android:theme
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:73:13-42
+	android:name
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:72:13-68
+activity#com.soonfor.warehousemanager.module.instore.selected.InStoreSelectedActivity
+ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:74:9-76:73
+	android:windowSoftInputMode
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:76:13-70
+	android:name
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:75:13-76
+activity#com.soonfor.warehousemanager.module.outstore.selected.OutStoreSelectedActivity
+ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:77:9-78:72
+	android:windowSoftInputMode
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:78:13-70
+	android:name
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:77:19-84
+activity#com.soonfor.warehousemanager.module.instore.deleteBarCodeActivity
+ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:79:9-81:73
+	android:windowSoftInputMode
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:81:13-70
+	android:name
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:80:13-65
+activity#com.soonfor.warehousemanager.view.NoQiTaoUIActivity
+ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:82:9-85:73
+	android:windowSoftInputMode
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:85:13-70
+	android:theme
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:84:13-42
+	android:name
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:83:13-51
+activity#com.soonfor.warehousemanager.module.print.PrinterActivity
+ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:86:9-88:73
+	android:windowSoftInputMode
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:88:13-70
+	android:name
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:87:13-57
+activity#com.soonfor.warehousemanager.module.instore.selected.SelectPrientActivity
+ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:89:9-91:73
+	android:windowSoftInputMode
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:91:13-70
+	android:name
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:90:13-73
+activity#com.soonfor.warehousemanager.module.querybyscan.unscan.UnScanBarCodeActivity
+ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:92:9-85
+	android:name
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml:92:19-82
+uses-sdk
+INJECTED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml
+INJECTED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml
+MERGED from [com.qmuiteam:qmui:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\qmui-1.1.3.aar\4eb61cd46285d69f0e2ea7141eae9931\AndroidManifest.xml:5:5-7:41
+MERGED from [com.qmuiteam:qmui:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\qmui-1.1.3.aar\4eb61cd46285d69f0e2ea7141eae9931\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\f4154bd3fad2bdbcf31c76cf8458080d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\f4154bd3fad2bdbcf31c76cf8458080d\AndroidManifest.xml:20:5-44
+MERGED from [:updateutil] F:\AndroidCode\As_workplace\WarehouseManager\updateutil\build\intermediates\manifests\full\release\AndroidManifest.xml:8:5-10:41
+MERGED from [:updateutil] F:\AndroidCode\As_workplace\WarehouseManager\updateutil\build\intermediates\manifests\full\release\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\98880e4e9289c7f7f76aa6fa45993307\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\98880e4e9289c7f7f76aa6fa45993307\AndroidManifest.xml:5:5-7:41
+MERGED from [com.jakewharton:butterknife:8.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\butterknife-8.4.0.aar\7f4a440beb87cdd346c83ec8a1392f3c\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\butterknife-8.4.0.aar\7f4a440beb87cdd346c83ec8a1392f3c\AndroidManifest.xml:5:5-43
+MERGED from [com.github.gittjy:LoadingDialog:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\LoadingDialog-1.0.2.aar\ce8aa6994549aa6c79d5334d1b5cf3ec\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.gittjy:LoadingDialog:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\LoadingDialog-1.0.2.aar\ce8aa6994549aa6c79d5334d1b5cf3ec\AndroidManifest.xml:7:5-9:41
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.4-7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\SmartRefreshLayout-1.0.4-7.aar\2300a7ac4edd374181aa2ee82b4b4863\AndroidManifest.xml:7:5-9:41
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.4-7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\SmartRefreshLayout-1.0.4-7.aar\2300a7ac4edd374181aa2ee82b4b4863\AndroidManifest.xml:7:5-9:41
+MERGED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\13a7fe0b7b40ab68ab68d6ca201a88de\AndroidManifest.xml:19:5-43
+MERGED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\13a7fe0b7b40ab68ab68d6ca201a88de\AndroidManifest.xml:19:5-43
+MERGED from [com.orhanobut:hawk:2.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\hawk-2.0.1.aar\6fe6eaf7706a24510fc325cd29795d9c\AndroidManifest.xml:6:5-44
+MERGED from [com.orhanobut:hawk:2.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\hawk-2.0.1.aar\6fe6eaf7706a24510fc325cd29795d9c\AndroidManifest.xml:6:5-44
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\b07b533e47cb21467ddd15bc80fa3ef0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\b07b533e47cb21467ddd15bc80fa3ef0\AndroidManifest.xml:20:5-43
+MERGED from [com.github.hijesse:android-logger:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\android-logger-2.0.0.aar\7bcb2ab871f2076ded4dd206aff1708f\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.hijesse:android-logger:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\android-logger-2.0.0.aar\7bcb2ab871f2076ded4dd206aff1708f\AndroidManifest.xml:8:5-10:41
+MERGED from [com.alibaba:arouter-api:1.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\arouter-api-1.3.1.aar\bf7b87efb72e4f094b9518c637f7a13d\AndroidManifest.xml:6:5-8:41
+MERGED from [com.alibaba:arouter-api:1.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\arouter-api-1.3.1.aar\bf7b87efb72e4f094b9518c637f7a13d\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.dfqin:grantor:2.5] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\grantor-2.5.aar\29794ecd0b93d7a76f8909ed60647464\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.dfqin:grantor:2.5] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\grantor-2.5.aar\29794ecd0b93d7a76f8909ed60647464\AndroidManifest.xml:7:5-9:41
+MERGED from [:EditTextWithClear:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\EditTextWithClear.aar\ae05ea239828188de6d3b5e72ac27d10\AndroidManifest.xml:7:5-9:41
+MERGED from [:EditTextWithClear:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\EditTextWithClear.aar\ae05ea239828188de6d3b5e72ac27d10\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\9781f2a0baf4671efd72aa2e7bce04c7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\9781f2a0baf4671efd72aa2e7bce04c7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\ca5ac40823293fc4fe4bad2c7ea663fd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\ca5ac40823293fc4fe4bad2c7ea663fd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\04cd4f4e1f45b4d8808e841e3dbf8241\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\04cd4f4e1f45b4d8808e841e3dbf8241\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\ee72c8cce1417098ac5dd6b774c2fde0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\ee72c8cce1417098ac5dd6b774c2fde0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\2e053655bd4e13f10a403f0e94c37956\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\2e053655bd4e13f10a403f0e94c37956\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\35dc149d62c36f360fc1dc0044491ac3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\35dc149d62c36f360fc1dc0044491ac3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\6e4265c4f7d85fdc40f64962345ac86f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\6e4265c4f7d85fdc40f64962345ac86f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\7b919d2d31225f0fd67f04bd3d00e75c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\7b919d2d31225f0fd67f04bd3d00e75c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\2555b3f243347d387492340740439661\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\2555b3f243347d387492340740439661\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\1538fe03c4ad8f5fa02a00e6b2f60542\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\1538fe03c4ad8f5fa02a00e6b2f60542\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\0bb696a1b4b703bbe3c61c6e5256fa50\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\0bb696a1b4b703bbe3c61c6e5256fa50\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.conceal:conceal:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\conceal-1.1.3.aar\f92305efd9fdc6fb77567874f60db2e1\AndroidManifest.xml:12:5-14:41
+MERGED from [com.facebook.conceal:conceal:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\conceal-1.1.3.aar\f92305efd9fdc6fb77567874f60db2e1\AndroidManifest.xml:12:5-14:41
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\6816960bea256a018ff3c25356765d8c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\6816960bea256a018ff3c25356765d8c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\ce40cfb5d896c8dca97c0770c0f90d3f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\ce40cfb5d896c8dca97c0770c0f90d3f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d31990276f9a660476ce77a2a4af0fc8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d31990276f9a660476ce77a2a4af0fc8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\caf2cc1c060f5c8694198111b38d3584\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\caf2cc1c060f5c8694198111b38d3584\AndroidManifest.xml:20:5-44
+INJECTED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml
+INJECTED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml
+		INJECTED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml
+		ADDED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml
+		INJECTED from F:\AndroidCode\As_workplace\WarehouseManager\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from [:updateutil] F:\AndroidCode\As_workplace\WarehouseManager\updateutil\build\intermediates\manifests\full\release\AndroidManifest.xml:17:5-19:47
+	tools:ignore
+		ADDED from [:updateutil] F:\AndroidCode\As_workplace\WarehouseManager\updateutil\build\intermediates\manifests\full\release\AndroidManifest.xml:19:9-44
+	android:name
+		ADDED from [:updateutil] F:\AndroidCode\As_workplace\WarehouseManager\updateutil\build\intermediates\manifests\full\release\AndroidManifest.xml:18:9-68
+provider#com.dingyg.updateutil.UpdateFileProvider
+ADDED from [:updateutil] F:\AndroidCode\As_workplace\WarehouseManager\updateutil\build\intermediates\manifests\full\release\AndroidManifest.xml:22:9-30:20
+	android:grantUriPermissions
+		ADDED from [:updateutil] F:\AndroidCode\As_workplace\WarehouseManager\updateutil\build\intermediates\manifests\full\release\AndroidManifest.xml:26:13-47
+	android:authorities
+		ADDED from [:updateutil] F:\AndroidCode\As_workplace\WarehouseManager\updateutil\build\intermediates\manifests\full\release\AndroidManifest.xml:24:13-78
+	android:exported
+		ADDED from [:updateutil] F:\AndroidCode\As_workplace\WarehouseManager\updateutil\build\intermediates\manifests\full\release\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [:updateutil] F:\AndroidCode\As_workplace\WarehouseManager\updateutil\build\intermediates\manifests\full\release\AndroidManifest.xml:23:13-68
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:updateutil] F:\AndroidCode\As_workplace\WarehouseManager\updateutil\build\intermediates\manifests\full\release\AndroidManifest.xml:27:13-29:57
+	android:resource
+		ADDED from [:updateutil] F:\AndroidCode\As_workplace\WarehouseManager\updateutil\build\intermediates\manifests\full\release\AndroidManifest.xml:29:17-54
+	android:name
+		ADDED from [:updateutil] F:\AndroidCode\As_workplace\WarehouseManager\updateutil\build\intermediates\manifests\full\release\AndroidManifest.xml:28:17-67
+uses-feature#android.hardware.camera
+ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\13a7fe0b7b40ab68ab68d6ca201a88de\AndroidManifest.xml:24:5-26:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\13a7fe0b7b40ab68ab68d6ca201a88de\AndroidManifest.xml:26:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\13a7fe0b7b40ab68ab68d6ca201a88de\AndroidManifest.xml:25:9-47
+uses-feature#android.hardware.camera.front
+ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\13a7fe0b7b40ab68ab68d6ca201a88de\AndroidManifest.xml:27:5-29:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\13a7fe0b7b40ab68ab68d6ca201a88de\AndroidManifest.xml:29:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\13a7fe0b7b40ab68ab68d6ca201a88de\AndroidManifest.xml:28:9-53
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\13a7fe0b7b40ab68ab68d6ca201a88de\AndroidManifest.xml:32:5-34:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\13a7fe0b7b40ab68ab68d6ca201a88de\AndroidManifest.xml:34:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\13a7fe0b7b40ab68ab68d6ca201a88de\AndroidManifest.xml:33:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\13a7fe0b7b40ab68ab68d6ca201a88de\AndroidManifest.xml:35:5-37:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\13a7fe0b7b40ab68ab68d6ca201a88de\AndroidManifest.xml:37:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\13a7fe0b7b40ab68ab68d6ca201a88de\AndroidManifest.xml:36:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\13a7fe0b7b40ab68ab68d6ca201a88de\AndroidManifest.xml:38:5-40:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\13a7fe0b7b40ab68ab68d6ca201a88de\AndroidManifest.xml:40:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\13a7fe0b7b40ab68ab68d6ca201a88de\AndroidManifest.xml:39:9-57
+uses-feature#android.hardware.wifi
+ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\13a7fe0b7b40ab68ab68d6ca201a88de\AndroidManifest.xml:41:5-43:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\13a7fe0b7b40ab68ab68d6ca201a88de\AndroidManifest.xml:43:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\13a7fe0b7b40ab68ab68d6ca201a88de\AndroidManifest.xml:42:9-45
+activity#com.journeyapps.barcodescanner.CaptureActivity
+ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\13a7fe0b7b40ab68ab68d6ca201a88de\AndroidManifest.xml:46:9-52:63
+	android:screenOrientation
+		ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\13a7fe0b7b40ab68ab68d6ca201a88de\AndroidManifest.xml:49:13-56
+	android:clearTaskOnLaunch
+		ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\13a7fe0b7b40ab68ab68d6ca201a88de\AndroidManifest.xml:48:13-45
+	android:stateNotNeeded
+		ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\13a7fe0b7b40ab68ab68d6ca201a88de\AndroidManifest.xml:50:13-42
+	android:windowSoftInputMode
+		ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\13a7fe0b7b40ab68ab68d6ca201a88de\AndroidManifest.xml:52:13-60
+	android:theme
+		ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\13a7fe0b7b40ab68ab68d6ca201a88de\AndroidManifest.xml:51:13-54
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\13a7fe0b7b40ab68ab68d6ca201a88de\AndroidManifest.xml:47:13-74
+activity#com.github.dfqin.grantor.PermissionActivity
+ADDED from [com.github.dfqin:grantor:2.5] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\grantor-2.5.aar\29794ecd0b93d7a76f8909ed60647464\AndroidManifest.xml:15:9-17:55
+	android:theme
+		ADDED from [com.github.dfqin:grantor:2.5] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\grantor-2.5.aar\29794ecd0b93d7a76f8909ed60647464\AndroidManifest.xml:17:13-52
+	android:name
+		ADDED from [com.github.dfqin:grantor:2.5] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\grantor-2.5.aar\29794ecd0b93d7a76f8909ed60647464\AndroidManifest.xml:16:13-71

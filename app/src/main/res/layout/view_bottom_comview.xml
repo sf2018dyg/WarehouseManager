@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_44"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bnfIsOk"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_weight="1"
+            android:background="@drawable/bottomenable"
+            android:enabled="false"
+            android:gravity="center"
+            android:text="@string/ok"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_15" />
+
+        <LinearLayout
+            android:id="@+id/llfCreateChOrder"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="@dimen/dp_44" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="@dimen/dp_44"
+                android:layout_weight="1"
+                android:background="@drawable/bottomenable"
+                android:enabled="true"
+                android:gravity="center"
+                android:paddingLeft="@dimen/dp_5"
+                android:paddingRight="@dimen/dp_5"
+                android:text="@string/createchorder"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_15" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="44dp" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/rlfShowPop"
+                android:layout_width="60dp"
+                android:layout_height="@dimen/dp_44"
+                android:background="@color/red">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:adjustViewBounds="true"
+                    android:src="@mipmap/menu_right_icon" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/imgfOver"
+                android:layout_width="60dp"
+                android:layout_height="@dimen/dp_44"
+                android:background="@color/transparent"
+                android:visibility="gone" />
+        </FrameLayout>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/imgfBottom"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/transparent"/>
+</LinearLayout>
